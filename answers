@@ -1,0 +1,12 @@
+1) torrent create "C:\Users\jadeb\Desktop\A4\S8\Decentralization_Technologies\IPFS-command.png" -o image.torrent
+
+2) copy "C:\Users\jadeb\Desktop\A4\S8\Decentralization_Technologies\IPFS-command.png" "C:\Users\jadeb\Desktop\A4\S8\Decentralization_Technologies\partition1"
+torrent create "C:\Users\jadeb\Desktop\A4\S8\Decentralization_Technologies\partition1" -o partition1.torrent
+
+3)copy "C:\Users\jadeb\Desktop\A4\S8\Decentralization_Technologies\partition1" "C:\Users\jadeb\Desktop\A4\S8\Decentralization_Technologies\partition1_copy"
+torrent create "C:\Users\jadeb\Desktop\A4\S8\Decentralization_Technologies\partition1_copy" -o partition1_copy.torrent
+
+
+1) ipfs add IPFS-command.png
+
+2) ipfs add -r partition1
